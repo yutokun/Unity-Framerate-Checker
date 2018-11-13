@@ -10,19 +10,31 @@ public class FPSCalculator : MonoBehaviour
 	}
 
 	[SerializeField] CountType countType;
+	[SerializeField] KeyCode toggleKey;
 
+	new Renderer renderer;
 	TextMesh textMesh;
+	bool doCalculation = true;
 	int countedFps;
 	float elapsedTime;
 
 	void Awake()
 	{
+		renderer = GetComponent<Renderer>();
 		textMesh = GetComponent<TextMesh>();
 		textMesh.text = "Calculate...";
 	}
 
 	void Update()
 	{
+		if (Input.GetKeyDown(toggleKey))
+		{
+			doCalculation = !doCalculation;
+			renderer.enabled = doCalculation;
+		}
+
+		if (doCalculation == false) return;
+
 		switch (countType)
 		{
 			case CountType.FrameCount:
