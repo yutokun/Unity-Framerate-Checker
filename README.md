@@ -18,6 +18,10 @@ This script has some settings.
 
 You can select a key that enable/disable counting.
 
+### Prefix
+
+As you can see.
+
 ## License
 
 CC0

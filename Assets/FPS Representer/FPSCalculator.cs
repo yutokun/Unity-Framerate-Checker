@@ -11,6 +11,7 @@ public class FPSCalculator : MonoBehaviour
 
 	[SerializeField] CountType countType;
 	[SerializeField] KeyCode toggleKey;
+	[SerializeField] string prefix;
 
 	new Renderer renderer;
 	TextMesh textMesh;
@@ -71,6 +72,6 @@ public class FPSCalculator : MonoBehaviour
 
 	void ShowFps(string fps)
 	{
-		textMesh.text = "FPS: " + fps;
+		textMesh.text = prefix + fps;
 	}
 }
