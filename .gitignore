@@ -10,6 +10,8 @@ Library/
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
 ExportedObj/
+.idea/
+Assets/Plugins/Editor/JetBrains*
 #*.svd
 *.userprefs
 *.csproj
