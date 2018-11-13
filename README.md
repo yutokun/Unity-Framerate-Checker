@@ -9,6 +9,8 @@ Put "FPS Calculator" to your scene.
 
 This script has some settings.
 
+![Inspector](inspector.png)
+
 ### Count Type
 
 - **Frame Count** - Count actual number of rendered frame. Frame rate will updated every second.
