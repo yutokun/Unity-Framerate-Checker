@@ -3,7 +3,7 @@ Show actual FPS in your scene.
 
 ## Usage
 
-Put "FPS Calculator" to your scene.
+Put "Framerate Checker" prefab to your scene.
 
 ## Settings
 
