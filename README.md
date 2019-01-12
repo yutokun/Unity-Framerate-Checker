@@ -26,4 +26,4 @@ As you can see.
 
 ## License
 
-CC0
+[Public Domain](https://github.com/yutokun/Unity-Framerate-Checker/blob/master/LICENSE)
