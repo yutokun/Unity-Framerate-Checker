@@ -37,6 +37,7 @@ Thumbs.db
 # ============ #
 # for others   #
 # ============ #
+Assets/Plugins*
 
 *.log #log files, for some plugins
 *.pyc #python bytecode cache, for some plugins.
